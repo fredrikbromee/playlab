@@ -1,0 +1,20 @@
+#{extends 'main.html' /}
+#{set title:'Home' /}
+
+
+<div id="login">
+    
+
+    #{form @enterPos(), id:'formGeo'}
+            <label>Lat:</label>
+            <input type="text" name="lat" id="lat" size="19" />
+            <label>Lon:</label>
+            <input type="text" name="lon" id="lon" size="19"/>
+            <input type="submit" value="Submit position" />
+    #{/form}
+
+    <p>
+        <a href="@{view()}">view stats</a>
+    </p>
+
+</div>
