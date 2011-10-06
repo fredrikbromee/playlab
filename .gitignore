@@ -3,4 +3,4 @@
 .settings
 eclipse/
 tmp
-public/globe/.DS_Store
+*.DS_Store
